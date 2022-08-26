@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PodProjectTest_Example' do
+  pod 'PodProjectTest', :path => '../'
+
+  target 'PodProjectTest_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end

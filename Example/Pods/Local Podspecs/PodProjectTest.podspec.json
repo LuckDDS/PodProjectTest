@@ -1,0 +1,22 @@
+{
+  "name": "PodProjectTest",
+  "version": "0.1.0",
+  "summary": "A short description of PodProjectTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdeshuai/PodProjectTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdeshuai": "dongdeshuai@tal.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdeshuai/PodProjectTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PodProjectTest/Classes/**/*"
+}
